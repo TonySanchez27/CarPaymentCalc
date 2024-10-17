@@ -19,7 +19,8 @@ public class Panel extends JPanel implements Runnable{
     this.setFocusable(true);
     this.addKeyListener(new ActionListener());
     this.setPreferredSize(SCREEN_SIZE);
-
+    this.setBackground(Color.RED);
+    this.setVisible(true);
     widgetThread = new Thread(this);
     widgetThread.start();
   }
