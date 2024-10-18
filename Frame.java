@@ -1,8 +1,8 @@
 /**
 * Car Payment Calculator
 *
-* Visualizes what a car will cost to purchase initially and
-* monthly.
+* Provides a visualization of the initial purchase cost
+* and monthly payments for a car.
 *
 * @author Tony Sanchez October 2024
 */
@@ -35,7 +35,7 @@ public class Frame extends JFrame{
     newPanel.add(subPanel2);
     this.add(newPanel);
     subPanel1.setSize(10, 400);
-    
+
     this.setSize(900, 500);
     this.setTitle("Car Payment Calculator");
     this.setResizable(true);
